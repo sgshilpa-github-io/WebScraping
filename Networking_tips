@@ -1,0 +1,14 @@
+Some interesting concepts on networking and socket
+
+Communication over internet
+
+(user 1 )Application Layer-->Transport Layer-->Internet Layer-->Link Layer--[Ethernet]-->Link-->Internet-->Link-->Fiber-->Link-->Interner-->Link-->Ethernet--Link-->Internet--Transport--Application (user 2)
+
+
+We can have communication between two transport layers and get the data from one application layer to another via python.
+
+This connection is called socket
+
+Ports are equivalent to extensions in a company. You can call company but to talk to specific person you need to dial extension. similary on network, you need to specify port to interact with certain application.
+
+
